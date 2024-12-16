@@ -115,7 +115,7 @@ body {
   height: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 130px 0 100px;
+  padding: 95px 0 65px;
 }
 .unlock-data h3 {
   font-size: 30px;
@@ -433,7 +433,7 @@ body {
 }
 .unlock-form{
     max-width: 270px;
-    padding: 20px 24px;
+    padding: 18px;
 }
 .unlock-form .form-control{
     padding: 0;
@@ -446,29 +446,36 @@ body {
     padding: 8px 40px;
 }
 .coupon-burg-img img {
-    max-width: 221px;
+  max-width: 177px;
 }
-.coupon_data, .redeem-data, .luck-data {
-  height: 356px;
+.coupon_data, .luck-data {
+  height: 331px;
 }
-.sorry-data{
-    height: 380px;
+.redeem-data{
+  height: 296px;
+}
+.sorry-data {
+  height: 322px;
 }
 .coupon-btm-text {
     font-size: 18px;
     line-height: 20px;
 }
-.coupon-content h3{
-    font-size: 20px;
-    line-height: 22px;
+.coupon-content h3 {
+  font-size: 16px;
+  line-height: 18px;
 }
-.coupon-btn-grp .btn-2{
-    font-size: 30px;
-    line-height: 32px;
-    padding: 5px 10px;
+.coupon-btn-grp .btn-2 {
+  font-size: 18px;
+  line-height: 20px;
+  padding: 2px 10px;
+}
+.coupon-btn-grp .btn-1 {
+  font-size: 16px;
+  line-height: 16px;
 }
 .coupon-btn-grp .btn-1{
-    padding: 5px 12px;
+    padding: 2px 12px;
 }
 .coupon-address p{
     max-width: 309px;
@@ -476,23 +483,34 @@ body {
     line-height: 18px;
 }
 .luck-data h2 {
-    font-size: 32px;
-    line-height: 34px;
+  font-size: 26px;
+  margin-bottom: 42px;
+  line-height: 28px;
 }
 .cuck-absolute-text{
     font-size: 22px;
     line-height: 24px;
 }
 .sorry-data h3{
-    font-size: 20px;
-    line-height: 22px;
-    max-width: 238px;
-    margin-top: 28px;
+  font-size: 18px;
+  line-height: 18px;
+  max-width: 215px;
+    margin-top: 20px;
     margin-bottom: 1px;
 }
+
+.sorry-data h4 {
+  margin-top: 20px;
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 18px;
+}
 .sorry-error-data h2 {
-    font-size: 26px;
-    line-height: 28px;
+  font-size: 24px;
+  line-height: 25px;
+}
+.sorry_sec{
+  padding: 197px 0 70px;
 }
 }
 @media (max-width: 375px) {
@@ -510,15 +528,25 @@ body {
 .container {
     padding: 0 20px;
 }
-.form-div{
-    margin-bottom: 15px;
+.form-div {
+  margin-bottom: 8px;
 }
 .unlock-form .form-label {
     font-size: 14px;
     line-height: 16px;
 }
-.coupon_data , .redeem-data ,.luck-data ,.sorry-data {
-    height: 371px;
+.coupon_data   ,.luck-data  {
+  height: 327px;
+}
+.redeem-data{
+  height: 284px;
+}
+.sorry-data{
+  height: 287px;
+}
+.sorry-error-data h2 {
+  font-size: 20px;
+  line-height: 24px;
 }
 .coupon-btn-grp .btn-2 {
     font-size: 24px;
@@ -530,11 +558,7 @@ body {
     padding: 2px 12px;
 }
 .coupon-burg-img img {
-    max-width: 185px;
-}
-.coupon-content h3 {
-    font-size: 16px;
-    line-height: 18px;
+  max-width: 161px;
 }
 .coupon-btm-text {
   font-size: 14px;
@@ -542,7 +566,9 @@ body {
 }
 .luck-data h2{
     margin-bottom: 40px;
-}
+    font-size: 22px;       
+     line-height: 24px;
+  }
 .right-arrow {
     margin-top: 4px;
     max-width: 11px;
@@ -551,8 +577,8 @@ body {
     margin-top: 19px;
 }
 .sorry-error-data h2 {
-    font-size: 24px;
-    line-height: 26px;
+  font-size: 18px;
+  line-height: 20px;
 }
 }
 @media (max-width: 320px) {
@@ -560,7 +586,7 @@ body {
     height: 284px;
 }
     .sorry-data{
-        height: 300px;
+        height: 270px;
     }
     .sorry-data h4{
         margin-top: 7px;
@@ -584,10 +610,7 @@ body {
     .coupon-btn-grp .btn-2 {
         padding: 3px 5px;
     }
-    .luck-data h2 {
-        font-size: 26px;
-        line-height: 26px;
-    }
+   
     .cuck-absolute-text {
         font-size: 18px;
         line-height: 20px;
@@ -611,5 +634,8 @@ body {
     .redeem-data h3 {
         font-size: 18px;
         line-height: 20px;
+    }
+    .redeem-data{
+      height: 260px;
     }
 }
