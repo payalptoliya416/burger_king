@@ -1,0 +1,25 @@
+
+  @font-face {
+    font-display: swap;
+    font-family: "Flame";
+    font-weight: 400; /* Regular weight */
+    font-style: normal;
+    src: url('../fonts/FlameSans-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Flame";
+    font-weight: 500; /* Medium weight */
+    font-style: normal;
+    src: url('../fonts/FlameRegular.otf') format('opentype'); /* Changed format to opentype */
+  }
+  
+  @font-face {
+    font-display: swap;
+    font-family: "Flame";
+    font-weight: 700; /* Bold weight */
+    font-style: normal;
+    src: url('../fonts/Flame-Bold.otf') format('opentype'); /* Changed format to opentype */
+  }
+    
