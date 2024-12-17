@@ -591,7 +591,7 @@ button{
 .cuck-absolute-text{
     font-size: 22px;
     line-height: 24px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 .cuck-absolute-text a{
     font-size: 22px;
@@ -646,7 +646,7 @@ button{
     margin-top: 2px;
   }
   .redeem-data h2{
-    width: 63%;
+    width: 60%;
   }
 
   .confirm-btn{
