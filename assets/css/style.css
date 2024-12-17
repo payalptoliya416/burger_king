@@ -626,6 +626,9 @@ button{
   .coupon_sec{
     padding: 52px 0 64px;
   }
+  .sorry_sec{
+    padding: 180px 0 70px;
+  }
 }
   .coupon-content h3{
     margin-top: 2px;
