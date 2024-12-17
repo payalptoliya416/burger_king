@@ -248,7 +248,7 @@ button{
   height: 100vh;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 91px 0 47px;
+  padding: 134px 0 64px;
 }
 .coupon_data {
   background-image: url("../images/s1.png");
@@ -606,7 +606,7 @@ button{
   padding: 197px 0 70px;
 }
 .coupon_sec{
-  padding: 73px 0 40px;
+  /* padding: 73px 0 40px; */
 }
 }
 @media (max-width: 375px) {
