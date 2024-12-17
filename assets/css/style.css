@@ -675,7 +675,12 @@ button{
     line-height: 16px;
 }
 .coupon_data   ,.luck-data  {
-  height: 264px;
+  height: 272px;
+}
+@supports (-webkit-touch-callout: none) {
+  .coupon_data   ,.luck-data  {
+    height: 264px;
+  }
 }
 .redeem-data{
   height: 284px;
