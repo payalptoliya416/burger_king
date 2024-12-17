@@ -14,7 +14,10 @@ ul {
   margin: 0;
 }
 body {
-  font-family: "Flame";
+  font-family: "Flame" !important;
+}
+button{
+  font-family: "Flame" !important;
 }
 :root {
   --red-color: #cd2029;
@@ -186,7 +189,6 @@ body {
   transition: all 0.2s ease;
   position: relative;
 }
-
 /* ---unlock-data-- end */
 
 /* coupon_sec -- start */
@@ -408,7 +410,7 @@ body {
     font-size: 24px;
     line-height: 26px;
     bottom: 5%;
-    left: 21%;
+    left: 24%;
 }
 }
 @media (max-width: 430px) {
@@ -439,8 +441,9 @@ body {
     max-width: 62px;
   }
   .unlock-data h3 {
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 .unlock-form{
     max-width: 270px;
@@ -469,12 +472,12 @@ body {
   height: 322px;
 }
 .coupon-btm-text {
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 18px;
 }
 .coupon-content h3 {
   font-size: 16px;
-  line-height: 18px;
+  line-height: 16px;
 }
 .coupon-btn-grp .btn-2 {
   font-size: 18px;
@@ -490,8 +493,8 @@ body {
 }
 .coupon-address p{
     max-width: 309px;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 16px;
 }
 .luck-data h2 {
   font-size: 26px;
@@ -534,7 +537,7 @@ body {
     line-height: 20px;
   }
   .logo img {
-    max-width: 230px;
+    max-width: 207px;
 }
 .container {
     padding: 0 20px;
@@ -606,8 +609,9 @@ body {
         left: 17%;
     }
     .coupon-address p {
-        font-size: 14px;
-        line-height: 16px;
+        font-size: 12px;
+        line-height: 14px;
+        max-width: 246px;
     }
     .coupon-btn-grp .btn-2 {
       font-size: 16px;
