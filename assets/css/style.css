@@ -354,6 +354,15 @@ button{
   gap: 6px;
   align-items: center;
 }
+.cuck-absolute-text a{
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 600;
+  color: var(--gray-color);
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
 .right-arrow {
   width: 100%;
   max-width: 15px;
@@ -569,6 +578,10 @@ button{
     line-height: 24px;
     margin-bottom: 5px;
 }
+.cuck-absolute-text a{
+    font-size: 22px;
+    line-height: 24px;
+}
 .sorry-data h3{
   font-size: 18px;
   line-height: 18px;
@@ -699,6 +712,10 @@ button{
     }
    
     .cuck-absolute-text {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .cuck-absolute-text a{
         font-size: 18px;
         line-height: 20px;
     }
