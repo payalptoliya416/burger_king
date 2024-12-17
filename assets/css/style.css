@@ -150,6 +150,8 @@ body {
   border-radius: 0;
   padding-top: 0;
   padding-left: 0;
+  font-size: 14px;
+  line-height: 16px;
 }
 .unlock-form .form-control:focus {
   box-shadow: none;
@@ -182,6 +184,7 @@ body {
   box-shadow: 4px 4px 0px 0px var(---text-color);
   letter-spacing: 1px;
   transition: all 0.2s ease;
+  position: relative;
 }
 
 /* ---unlock-data-- end */
