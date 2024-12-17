@@ -41,7 +41,7 @@ button{
   margin: auto;
   z-index: 1;
   position: relative;
-  overflow-y: auto;
+  
 }
 
 /* ---gif_page-- start-- */
@@ -99,7 +99,7 @@ button{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 120px 0 84px; 
-  overflow-y: auto;
+  
 }
 .redeem-data {
   background-image: url("../images/Asset\ 3.png");
@@ -162,7 +162,7 @@ button{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 120px 0 50px;
-  overflow-y: auto;
+  
 }
 .unlock-data h3 {
   font-size: 30px;
@@ -252,7 +252,7 @@ button{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 93px 0 64px;
-  overflow-y: auto;
+  
 }
 .coupon_data {
   background-image: url("../images/s1.png");
@@ -381,7 +381,7 @@ button{
   background-image: url("../images/sorrybg.png");
   width: 100%;
   height: 100vh;
-  overflow-y: auto;
+  
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding: 236px 0 70px;
@@ -435,7 +435,7 @@ button{
   }
   .coupon_sec{
     height: 100vh;
-      overflow-y: auto;
+      
   }
   .redeem-data h2 {
     font-size: 22px;
