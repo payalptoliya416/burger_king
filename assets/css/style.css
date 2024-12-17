@@ -623,7 +623,10 @@ button{
 }
 @media (max-width: 390px) {
   .coupon_sec{
-    padding: 58px 0 64px;
+    padding: 41px 0 64px;
+  }
+  .coupon-content h3{
+    margin-top: 2px;
   }
   .redeem-data h2{
     width: 63%;
@@ -672,7 +675,7 @@ button{
     line-height: 16px;
 }
 .coupon_data   ,.luck-data  {
-  height: 301px;
+  height: 264px;
 }
 .redeem-data{
   height: 284px;
@@ -695,7 +698,10 @@ button{
     padding: 2px 12px;
 }
 .coupon-burg-img img {
-  max-width: 161px;
+  max-width: 136px;
+}
+.coupon-address p{
+  margin-top: 0;
 }
 .coupon-btm-text {
   font-size: 14px;
