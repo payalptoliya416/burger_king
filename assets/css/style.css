@@ -503,7 +503,7 @@ button{
     font-size: 18px;
     text-align: center;
     line-height: 22px;
-    left: 55%;
+    left: 52%;
     transform: translate(-50%, -50%);
     bottom: 5%;
     width: 67%;
@@ -612,7 +612,7 @@ button{
   /* padding: 73px 0 40px; */
 }
 }
-@media (max-width: 390sapx) {
+@media (max-width: 390px) {
   .redeem-data h3 {
     font-size: 20px;
     line-height: 22px;
