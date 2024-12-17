@@ -622,6 +622,9 @@ button{
 }
 }
 @media (max-width: 390px) {
+  .coupon_sec{
+    padding: 58px 0 64px;
+  }
   .redeem-data h2{
     width: 63%;
   }
