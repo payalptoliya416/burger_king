@@ -44,8 +44,30 @@ button{
 }
 
 /* ---gif_page-- start-- */
-
-
+.gif-image{
+  position: relative;
+}
+.index-btn{
+  position: absolute;
+  bottom: 5%;
+  right: 14%;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: #ff8f40; 
+  border: none;
+  border-radius: 30px;
+  padding: 2px 22px;
+  color: var(---text-color); 
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 4px 4px 0px 0px var(---text-color);
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+}
 /* ---gif_page-- end-- */
 
 /* ---logo start */
@@ -97,6 +119,15 @@ button{
   font-weight: 600;
   margin-bottom: 0;
   transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.redeem-data h2 a{
+  color: var(--red-color);
+  font-size: 28px;
+  line-height: 24px;
+  font-weight: 600;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -172,11 +203,11 @@ button{
   margin-bottom: 70px;
 }
 .confirm-btn .btn {
-  background-color: #ff8f40; /* Orange background */
+  background-color: #ff8f40; 
   border: none;
   border-radius: 30px;
   padding: 10px 40px;
-  color: var(---text-color); /* White text color */
+  color: var(---text-color); 
   font-size: 24px;
   line-height: 28px;
   font-weight: bold;
@@ -188,6 +219,15 @@ button{
   letter-spacing: 1px;
   transition: all 0.2s ease;
   position: relative;
+  transition: all 0.5s;
+}
+.confirm-btn .btn:hover{
+  box-shadow: -4px -4px 0px 0px var(---text-color);
+}
+.confirm-btn .btn:focus{
+  box-shadow: 4px 4px 0px 0px #ff8f40;
+  color: #ff8f40; 
+  background-color: var(---text-color);
 }
 /* ---unlock-data-- end */
 
@@ -376,6 +416,10 @@ button{
     transform: translate(-45%, -50%);
     bottom: 7%;
   }
+  .redeem-data h2 a{
+    font-size: 22px;
+    line-height: 26px;
+  }
   .redeem-data {
     height: 435px;
   }
@@ -388,7 +432,11 @@ button{
   .redeem-data h2 {
     font-size: 20px;
     line-height: 26px;
-    width: 56%;
+    width: 61%;
+  }
+  .redeem-data h2 a{
+    font-size: 20px;
+    line-height: 26px;
   }
   .unlock-data h3{
         font-size: 26px;
@@ -430,14 +478,18 @@ button{
     height: 304px;
   }
   .redeem-data h2 {
-    /* width: 100%; */
     font-size: 18px;
     text-align: center;
     line-height: 22px;
-    /* left: 72%; */
-    left: 52%;
+    left: 55%;
     transform: translate(-50%, -50%);
     bottom: 6%;
+    width: 67%;
+  }
+  
+  .redeem-data h2 a{
+    font-size: 18px;
+    line-height: 22px;
   }
   .burger-btm img {
     width: 100%;
@@ -537,6 +589,10 @@ button{
     line-height: 22px;
   }
   .redeem-data h2 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .redeem-data h2 a{
     font-size: 17px;
     line-height: 20px;
   }
@@ -662,6 +718,11 @@ button{
       line-height: 18px;
       /* left: 71%; */
   }
+    .redeem-data h2 a {
+      font-size: 14px;
+      line-height: 18px;
+  }
+  
   .redeem-data h2 .right-arrow{
     margin-top: 0;
   }
