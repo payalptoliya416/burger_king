@@ -622,6 +622,9 @@ button{
 }
 }
 @media (max-width: 390px) {
+  .redeem-data h2{
+    width: 63%;
+  }
   .lock_sec{
     padding: 28px 0 50px;
   }
