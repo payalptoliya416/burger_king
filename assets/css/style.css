@@ -648,7 +648,9 @@ button{
   .redeem-data h2{
     width: 60%;
   }
-
+  .redeem-data h2{
+    left: 51%;
+  }
   .confirm-btn{
     margin-bottom: 40px;
   }
