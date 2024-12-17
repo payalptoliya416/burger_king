@@ -622,9 +622,11 @@ button{
 }
 }
 @media (max-width: 390px) {
+  @supports (-webkit-touch-callout: none) {
   .coupon_sec{
     padding: 52px 0 64px;
   }
+}
   .coupon-content h3{
     margin-top: 2px;
   }
