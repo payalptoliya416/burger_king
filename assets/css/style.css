@@ -221,7 +221,7 @@ button{
   color: var(---text-color);
   font-size: 22px;
   line-height: 22px;
-  font-weight: 400;
+  font-weight: 500;
   border-radius: 0;
   border-top-left-radius: 24px;
   border-bottom-left-radius: 24px;
@@ -430,11 +430,12 @@ button{
     height: 304px;
   }
   .redeem-data h2 {
-    width: 100%;
+    /* width: 100%; */
     font-size: 18px;
     text-align: center;
     line-height: 22px;
-    left: 72%;
+    /* left: 72%; */
+    left: 52%;
     transform: translate(-50%, -50%);
     bottom: 6%;
   }
@@ -659,7 +660,7 @@ button{
     .redeem-data h2 {
       font-size: 14px;
       line-height: 18px;
-      left: 71%;
+      /* left: 71%; */
   }
   .redeem-data h2 .right-arrow{
     margin-top: 0;
