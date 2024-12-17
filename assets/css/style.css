@@ -65,7 +65,7 @@ button{
   height: 100%;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 130px 0 100px;
+  padding: 87px 0 72px; 
 }
 .redeem-data {
   background-image: url("../images/Asset\ 3.png");
@@ -310,7 +310,9 @@ button{
   width: 100%;
   max-width: 15px;
 }
-
+.cuck-absolute-text .right-arrow {
+  margin-top: 3px;
+}
 /* ---sorry start */
 .sorry_sec {
   background-image: url("../images/sorrybg.png");
@@ -504,6 +506,7 @@ button{
 .cuck-absolute-text{
     font-size: 22px;
     line-height: 24px;
+    margin-bottom: 5px;
 }
 .sorry-data h3{
   font-size: 18px;
@@ -661,4 +664,7 @@ button{
   .redeem-data h2 .right-arrow{
     margin-top: 0;
   }
+  .coupon-burg-img img {
+    max-width: 145px;
+}
 }
