@@ -590,6 +590,9 @@ button{
 .sorry_sec{
   padding: 197px 0 70px;
 }
+.coupon_sec{
+  padding: 73px 0 40px;
+}
 }
 @media (max-width: 375px) {
   .redeem-data h3 {
