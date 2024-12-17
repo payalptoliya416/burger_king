@@ -89,11 +89,14 @@ body {
   left: 50%;
   text-transform: uppercase;
   color: var(--red-color);
-  font-size: 30px;
-  line-height: 22px;
+  font-size: 28px;
+  line-height: 24px;
   font-weight: 600;
   margin-bottom: 0;
   transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 .burger-btm {
   text-align: center;
@@ -360,7 +363,7 @@ body {
     padding: 0 30px;
   }
   .redeem-data h2 {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 26px;
     left: 49%;
     transform: translate(-45%, -50%);
@@ -376,8 +379,9 @@ body {
     max-width: 296px;
   }
   .redeem-data h2 {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 26px;
+    width: 56%;
   }
   .unlock-data h3{
         font-size: 26px;
@@ -389,6 +393,13 @@ body {
 .coupon-btn-grp .btn-1 {
     font-size: 18px;
     line-height: 18px;
+}
+.redeem-data h3{
+  font-size: 28px;
+  line-height: 32px;
+}
+.redeem-data {
+  height: 392px;
 }
 .coupon-btm-text {
     font-size: 24px;
@@ -413,10 +424,10 @@ body {
   }
   .redeem-data h2 {
     width: 100%;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     line-height: 22px;
-    left: 50%;
+    left: 72%;
     transform: translate(-50%, -50%);
     bottom: 6%;
   }
@@ -635,4 +646,12 @@ body {
     .redeem-data{
       height: 260px;
     }
+    .redeem-data h2 {
+      font-size: 14px;
+      line-height: 18px;
+      left: 71%;
+  }
+  .redeem-data h2 .right-arrow{
+    margin-top: 0;
+  }
 }
