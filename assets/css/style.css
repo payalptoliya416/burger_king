@@ -500,12 +500,15 @@ button{
     font-size: 18px;
     text-align: center;
     line-height: 22px;
-    left: 58%;
+    left: 55%;
     transform: translate(-50%, -50%);
-    bottom: 6%;
+    bottom: 5%;
     width: 67%;
   }
-  
+  .coupon-btm-text{
+    left: 23%;
+    bottom: 4%;
+  }
   .redeem-data h2 a{
     font-size: 18px;
     line-height: 22px;
