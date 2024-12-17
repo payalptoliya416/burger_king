@@ -612,7 +612,7 @@ button{
   /* padding: 73px 0 40px; */
 }
 }
-@media (max-width: 375px) {
+@media (max-width: 390sapx) {
   .redeem-data h3 {
     font-size: 20px;
     line-height: 22px;
