@@ -47,7 +47,7 @@ button{
 .gif-image{
   position: relative;
 }
-.index-btn{
+.index-btn.btn{
   position: absolute;
   bottom: 5%;
   right: 14%;
@@ -64,9 +64,17 @@ button{
   text-transform: uppercase;
   cursor: pointer;
   outline: none;
-  box-shadow: 4px 4px 0px 0px var(---text-color);
+  box-shadow: 3px 3px 0px 0px var(---text-color);
   letter-spacing: 1px;
   transition: all 0.2s ease;
+}
+.index-btn.btn:hover{
+  box-shadow: -3px -3px 0px 0px var(---text-color);
+}
+.index-btn.btn:focus{
+  box-shadow: 3px 3px 0px 0px #ff8f40;
+  color: #ff8f40; 
+  background-color: var(---text-color);
 }
 /* ---gif_page-- end-- */
 
