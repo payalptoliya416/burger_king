@@ -625,7 +625,6 @@ button{
 }
 }
 @media (max-width: 390px) {
-  @supports (-webkit-touch-callout: none) {
   .lock_sec{
     padding: 28px 0 50px;
   }
@@ -635,7 +634,7 @@ button{
   .unlock-form{
     padding: 14px;
   }
-}
+
   .confirm-btn .btn{
     font-size: 20px;
     line-height: 24px;
