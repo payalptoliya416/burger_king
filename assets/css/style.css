@@ -498,9 +498,7 @@ button{
   .logo img {
     max-width: 247px;
 }
-.burger-btm{
-  margin-top: 24px;
-}
+
   .redeem-data h3 {
     font-size: 22px;
     line-height: 24px;
@@ -623,12 +621,18 @@ button{
 }
 @media (max-width: 390px) {
   @supports (-webkit-touch-callout: none) {
+    .burger-btm{
+      margin-top: 24px;
+    }
   .coupon_sec{
     padding: 52px 0 64px;
   }
   .sorry_sec{
     padding: 180px 0 70px;
   }
+  .lock_sec {
+    padding: 49px 0 50px;
+}
 }
   .coupon-content h3{
     margin-top: 2px;
@@ -636,9 +640,7 @@ button{
   .redeem-data h2{
     width: 63%;
   }
-  .lock_sec{
-    padding: 49px 0 50px;
-  }
+
   .confirm-btn{
     margin-bottom: 40px;
   }
