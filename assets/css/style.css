@@ -617,11 +617,8 @@ button{
   font-size: 24px;
   line-height: 25px;
 }
-.sorry_sec{
-  /* padding: 197px 0 70px; */
-}
-.coupon_sec{
-  /* padding: 73px 0 40px; */
+.lock_sec .confirm-btn{
+  margin-bottom: 20px;
 }
 }
 @media (max-width: 390px) {
@@ -634,7 +631,11 @@ button{
   .unlock-form{
     padding: 14px;
   }
-
+  .unlock-data h3 {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 14px;
+}
   .confirm-btn .btn{
     font-size: 20px;
     line-height: 24px;
@@ -658,7 +659,7 @@ button{
     padding: 0 20px;
 }
 .form-div {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 .unlock-form .form-label {
     font-size: 14px;
