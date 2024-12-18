@@ -727,6 +727,9 @@ button{
     .coupon-address p{
       margin-top: 5px;
     }
+    .coupon-btm-text{
+      margin-bottom: 2px;
+    }
   .coupon_sec{
     padding: 52px 0 64px;
   }
