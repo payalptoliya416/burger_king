@@ -712,6 +712,12 @@ button{
     max-width: 10px;
 }
   @supports (-webkit-touch-callout: none) {
+    .coupon_sec{
+      padding: 60px 0 64px;
+    }
+    .coupon-btn .btn{
+      margin-bottom: 10px;
+    }
     .burger-btm{
       margin-top: 24px;
     }
