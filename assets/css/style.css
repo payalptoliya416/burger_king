@@ -174,7 +174,15 @@ button{
   font-weight: 500;
   color: #fceed4;
   text-align: center;
+  margin-bottom: 4px;
+}
+.unlock-data .unlock-para{
   margin-bottom: 25px;
+  font-size: 16px;
+  color: #fceed4;
+  line-height: 16px;
+  text-align: center;
+  font-weight: 500;
 }
 .unlock-form {
   background-color: #fbedd3;
@@ -319,6 +327,30 @@ button{
   line-height: 30px;
   text-align: center;
   font-weight: 800;
+}
+.coupon-btn {
+  text-align: center;
+}
+.coupon-btn .btn{
+  background-color: #ec3024; 
+  border: none;
+  text-transform: uppercase;
+  border-radius: 30px;
+  padding: 10px 40px;
+  color: var(---text-color); 
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  box-shadow: 4px 4px 0px 0px var(---text-color);
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+  position: relative;
+  transition: all 0.5s;
+  margin-bottom: 20px;
 }
 .coupon-address p {
   color: var(--gray-color);
@@ -474,6 +506,7 @@ button{
         font-size: 26px;
         line-height: 28px;
   }
+
   .coupon-burg-img img {
     max-width: 278px;
 }
@@ -493,6 +526,10 @@ button{
     line-height: 26px;
     bottom: 5%;
     left: 24%;
+}
+.unlock-data .unlock-para{
+  font-size: 14px;
+  line-height: 16px;
 }
 }
 @media (max-width: 430px) {
@@ -534,8 +571,13 @@ button{
   .unlock-data h3 {
     font-size: 18px;
     line-height: 20px;
+  }
+  .unlock-data .unlock-para{
+    font-size: 12px;
+    line-height: 14px;
     margin-bottom: 20px;
-}
+  }
+
 .unlock-form{
     max-width: 270px;
     padding: 18px;
@@ -550,6 +592,12 @@ button{
 .confirm-btn .btn{
   padding: 5px 30px;
 }
+.coupon-btn .btn{
+  padding: 5px 30px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 .coupon-burg-img img {
   max-width: 177px;
 }
@@ -622,6 +670,7 @@ button{
 .lock_sec .confirm-btn{
   margin-bottom: 20px;
 }
+
 @supports (-webkit-touch-callout: none) {
   .coupon_sec {
     padding: 90px 0 64px;    
@@ -642,7 +691,7 @@ button{
   .lock_sec {
     padding: 49px 0 50px;
 }
-.unlock-data h3 {
+.unlock-data .unlock-para {
   margin-bottom: 14px;
 }
 }
@@ -669,6 +718,11 @@ button{
     font-size: 20px;
     line-height: 24px;
   }
+  .coupon-btn .btn{
+    font-size: 14px;
+    line-height: 16px;
+  }
+  
   .redeem-data h3 {
     font-size: 20px;
     line-height: 22px;
