@@ -724,6 +724,9 @@ button{
     .burger-btm{
       margin-top: 24px;
     }
+    .coupon-address p{
+      margin-top: 5px;
+    }
   .coupon_sec{
     padding: 52px 0 64px;
   }
