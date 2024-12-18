@@ -701,6 +701,9 @@ button{
     padding: 90px 0 64px;    
   }
 }
+.coupon_sec{
+  padding: 84px 0 64px;
+}
 }
 @media (max-width: 390px) {
   .curv-img {
