@@ -229,6 +229,7 @@ button{
 }
 .confirm-btn .btn {
   background-color: #ff8f40; 
+  position: relative;
   border: none;
   border-radius: 30px;
   padding: 10px 40px;
@@ -282,6 +283,7 @@ button{
   display: flex;
   margin-bottom: 10px;
 }
+
 .coupon-btn-grp .btn-1 {
   background-color: var(--orange-color);
   color: var(---text-color);
@@ -330,8 +332,11 @@ button{
 }
 .coupon-btn {
   text-align: center;
+
 }
+
 .coupon-btn .btn{
+  position: relative;
   background-color: #ec3024; 
   border: none;
   text-transform: uppercase;
@@ -351,6 +356,21 @@ button{
   position: relative;
   transition: all 0.5s;
   margin-bottom: 20px;
+}
+.coupon-btn .btn:hover{
+  box-shadow: -4px -4px 0px 0px var(---text-color);
+}
+.coupon-btn .btn:focus{
+  box-shadow: 4px 4px 0px 0px #ec3024;
+  color: #ec3024; 
+  background-color: var(---text-color);
+}
+.curv-img{
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  width: 100%;
+  max-width: 15px;
 }
 .coupon-address p {
   color: var(--gray-color);
@@ -536,6 +556,11 @@ button{
   .redeem_sec{
     padding: 72px 0 84px;
   }
+  .curv-img{
+    top: 6px;
+    left: 11px;
+    max-width: 11px;
+  }
   .logo img {
     max-width: 247px;
 }
@@ -678,6 +703,11 @@ button{
 }
 }
 @media (max-width: 390px) {
+  .curv-img {
+    top: 5px;
+    left: 9px;
+    max-width: 10px;
+}
   @supports (-webkit-touch-callout: none) {
     .burger-btm{
       margin-top: 24px;
