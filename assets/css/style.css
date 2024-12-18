@@ -41,7 +41,7 @@ button{
   margin: auto;
   z-index: 1;
   position: relative;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 
 /* ---gif_page-- start-- */
