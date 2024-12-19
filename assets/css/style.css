@@ -323,7 +323,9 @@ button{
   color: var(--orange-color);
   position: absolute;
   bottom: 4%;
-  left: 23%;
+  /* left: 23%; */
+  left: 0;
+  right: 0;
   font-size: 28px;
   line-height: 30px;
   text-align: center;
@@ -541,17 +543,16 @@ button{
   height: 392px;
 }
 .coupon-btm-text {
-    font-size: 24px;
-    line-height: 26px;
-    bottom: 4%;
-    left: 24%;
+    font-size: 20px;
+    line-height: 22px;
+    bottom: 5%;
+    /* left: 24%; */
 }
 .unlock-data .unlock-para{
   font-size: 14px;
   line-height: 16px;
 }
-}
-@media (max-width: 430px) {
+
   .redeem_sec{
     padding: 72px 0 84px;
   }
