@@ -543,7 +543,7 @@ button{
 .coupon-btm-text {
     font-size: 24px;
     line-height: 26px;
-    bottom: 5%;
+    bottom: 4%;
     left: 24%;
 }
 .unlock-data .unlock-para{
@@ -624,6 +624,9 @@ button{
 
 .coupon-burg-img img {
   max-width: 177px;
+}
+.burger-img img{
+  max-width: 155px;
 }
 .coupon_data, .luck-data {
   height: 311px;
