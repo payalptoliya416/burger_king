@@ -698,11 +698,40 @@ button{
 .lock_sec .confirm-btn{
   margin-bottom: 20px;
 }
-
 @supports (-webkit-touch-callout: none) {
   .coupon_sec {
     padding: 90px 0 64px;    
   }
+  .coupon_sec{
+    padding: 60px 0 64px;
+  }
+  .chili-btm{
+    margin-top: 25px;
+  }
+  .coupon-btn .btn{
+    margin-bottom: 10px;
+  }
+  .burger-btm{
+    margin-top: 24px;
+  }
+  .coupon-address p{
+    margin-top: 5px;
+  }
+  .coupon-btm-text{
+    margin-bottom: 2px;
+  }
+.coupon_sec{
+  padding: 52px 0 64px;
+}
+.sorry_sec{
+  padding: 180px 0 70px;
+}
+.lock_sec {
+  padding: 49px 0 50px;
+}
+.unlock-data .unlock-para {
+margin-bottom: 14px;
+}
 }
 .coupon_sec{
   padding: 84px 0 64px;
@@ -714,38 +743,7 @@ button{
     left: 9px;
     max-width: 10px;
 }
-  @supports (-webkit-touch-callout: none) {
-    .coupon_sec{
-      padding: 60px 0 64px;
-    }
-    .chili-btm{
-      margin-top: 25px;
-    }
-    .coupon-btn .btn{
-      margin-bottom: 10px;
-    }
-    .burger-btm{
-      margin-top: 24px;
-    }
-    .coupon-address p{
-      margin-top: 5px;
-    }
-    .coupon-btm-text{
-      margin-bottom: 2px;
-    }
-  .coupon_sec{
-    padding: 52px 0 64px;
-  }
-  .sorry_sec{
-    padding: 180px 0 70px;
-  }
-  .lock_sec {
-    padding: 49px 0 50px;
-}
-.unlock-data .unlock-para {
-  margin-bottom: 14px;
-}
-}
+ 
   .coupon-content h3{
     margin-top: 2px;
   }
