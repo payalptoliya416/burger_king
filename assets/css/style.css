@@ -734,6 +734,11 @@ margin-bottom: 14px;
     left: 56%;
   }
 }
+@media (max-width: 430px) {
+  .redeem-data h2{
+    left: 52%;
+  }
+}
 @media (max-width: 390px) {
   .curv-img {
     top: 5px;
@@ -771,7 +776,7 @@ margin-bottom: 14px;
   .redeem-data h2 {
     font-size: 17px;
     line-height: 20px;
-    width: 60%;
+    width: 58%;
     left: 51%;
   }
   .redeem-data h2 a{
